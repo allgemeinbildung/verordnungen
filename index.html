@@ -148,7 +148,8 @@
 
         // Function to load the XML file and start the application
         async function loadVerordnungFromRepo() {
-            const filePath = 'SR-412.101.220.88-01042024-DE.xml';
+            // Updated file path to correctly point to the 'verordnungen' subdirectory
+            const filePath = './verordnungen/SR-412.101.220.88-01042024-DE.xml';
             
             try {
                 const response = await fetch(filePath);
